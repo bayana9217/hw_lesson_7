@@ -1,0 +1,248 @@
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-Heavy.woff2') format('woff2'),
+        url('../fonts/Gilroy-Heavy.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-Bold.woff2') format('woff2'),
+        url('../fonts/Gilroy-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-SemiBold.woff2') format('woff2'),
+        url('../fonts/Gilroy-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-Medium.woff2') format('woff2'),
+        url('../fonts/Gilroy-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Обнуляющий стиль */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing:border-box;
+}
+ol li,
+ul li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+
+
+html,
+body{
+	height: 100%;
+	font-size: 14px;
+	line-height: 1;
+	font-family: "Gilroy";
+}
+/* -------------- */
+
+.wrapper{
+	overflow: hidden;
+	min-height: 100%;
+	
+	
+}
+.container {
+	max-width: 1140px;
+	margin: 0 auto;
+}
+.block{
+	background: url("../img/bg.png") 50% / cover no-repeat;
+	min-height: 720px;
+}
+
+.header {
+	padding: 30px 0 0 0;
+	
+}
+
+.headerlogo {
+	display: inline-block;
+	font-size: 52px;
+	font-weight: 800;
+	color: #E1E1E1;
+	text-transform: uppercase;
+}
+.headerslash {
+	height: 40px;
+	width: 3px;
+	background-color: #89AFEF;
+	display: inline-block;
+	margin: 0 25px;
+}
+.headertitle {
+	color: #5D5D5D;
+	max-width: 180px;
+	display: inline-block;
+	text-transform: lowercase;
+}
+.headertoils {
+	display: inline-block;
+	padding: 0 60px 0 70px;
+}
+.whatsapp {
+	display: inline-block;
+	width: 43px;
+	height: 43px;
+	border-radius: 50%;
+	margin: 0 18px 0 0;
+	background: #2DD038 url("../img/whatsapp-logo.png") center no-repeat;
+	box-shadow: 0 8px 25px #2dd0388a;
+}
+.viber {
+	display: inline-block;
+	width: 43px;
+	height: 43px;
+	border-radius: 50%;
+	margin: 0 18px 0 0;
+	background: #7B519D url("../img/viber-logo.png") center no-repeat;
+	box-shadow: 0 8px 25px #7b519d8a;
+}
+.telegram {
+	display: inline-block;
+	width: 43px;
+	height: 43px;
+	border-radius: 50%;
+	margin: 0 15px 0 0;
+	background: #5BBAF0 url("../img/telegram.png") center no-repeat;
+	box-shadow: 0 8px 25px #5bb9f08a;
+}
+.phonemail {
+	display: inline-block;
+}
+.phonemail a{
+	padding: 0 0 0 20px;
+	color: #333333;
+	line-height: 28px;
+}
+.phone {
+	font-size: 20px;
+	font-weight: 700;
+	background: url("../img/phone.png") left no-repeat;
+}
+.mail {
+	margin: 0 0 0 23px;
+	font-size: 17px;
+	background: url("../img/mail.png") left no-repeat;
+}
+.headerbtn{
+	display: inline-block;
+	vertical-align: top;
+	margin: 0 0 0 30px;
+	}
+.button {
+	display: inline-block;
+	padding: 12px 20px 10px 20px;
+	font-weight: 600;
+	font-size: 18px;
+	color: #fff;
+	min-width: 195px;
+	min-height: 44px;
+	border-radius: 3px;
+	background: linear-gradient(to right, #f6bd60 1%,#f5ab66 47%,#ef8d31 100%);
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.247);
+}
+
+.menu {
+	margin: 40px 0 0 0;	
+}
+.menu li{
+	display: inline-block;
+	margin: 0 43px 0 0;
+	font-size: 0;
+}
+.menulink{
+	font-weight: 500;
+	font-size: 16px;
+	text-transform: uppercase;
+	color: #333333;
+}
+
+.mainblock {
+	color: #333333;
+}
+.title{
+	max-width: 670px;
+	margin: 120px 0 0 0;
+	display: inline-block;
+}
+.title h1{
+	font-size: 40px;
+	font-weight: 800;
+	line-height: 50px;
+}
+.titlep {
+	font-size: 24px;
+	font-weight: 500;
+	margin: 45px 0 0 0;
+}
+.price {
+	font-size: 24px;
+	font-weight: 900;
+}
+.mainbtn {
+	margin: 40px 0 0 0;
+	width: 211px;
+	height: 50px;
+}
+.mainbutton {
+	display: inline-block;
+	padding: 13px 20px 10px 58px;
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 16px;
+	color: #fff;
+	min-width: 195px;
+	min-height: 44px;
+	border-radius: 3px;
+	background: linear-gradient(to right, #87aff1 1%,#6c80cb 99%);
+	box-shadow: 0px 12px 20px rgba(132, 170, 237, 0.459);
+}
+.manimage{
+	display: inline-block;
+	vertical-align: top;
+	/* height: 520px;
+	width: 340px; */
+}
+.man{
+	margin: 40px 0 0 0;
+}
